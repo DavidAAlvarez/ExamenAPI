@@ -16,4 +16,8 @@
  3.- ejecutar el proyecto y consultar en el navegador la ruta http://localhost:49313/swagger/ui/index#/ para 
  ver las apis que se crearon
 
+ vista de las apis usando swagger
+ ![image](https://github.com/DavidAAlvarez/ExamenAPI/assets/17182999/d111cde9-5097-48f2-9149-4bef3e1a1ff0)
+
+
 
