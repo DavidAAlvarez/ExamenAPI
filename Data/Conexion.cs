@@ -18,5 +18,6 @@ namespace ExamenAPI.Data
 		/// </list>
 		/// </summary>
 		public static string conexion = "Data Source=.;Initial Catalog=prueba;Integrated Security=True";
+		//public static string conexion = "Data Source =.; Initial Catalog = prueba; User ID = sa; Password = myPassword;";
 	}
 }

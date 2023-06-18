@@ -4,5 +4,79 @@
         <name>ExamenAPI</name>
     </assembly>
     <members>
+        <member name="M:ExamenAPI.Controllers.AlumnosController.GetLista">
+            <summary>
+            Esta es la clase que concede los metodos de consulta
+            a los alumnos y los cursos.
+            <list type="bullet">
+            <item>
+            <term>GetLista</term>
+            <description>Listado el curp y nombre de todos los alumnos</description>
+            </item>
+            </list>
+            </summary>
+        </member>
+        <member name="M:ExamenAPI.Controllers.AlumnosController.GetAlumno(System.Int32)">
+            <summary>
+            Este es la clase que concede los metodos de consulta
+            a los alumnos y los cursos.
+            <list type="bullet">
+            <item>
+            <term>GetLista</term>
+            <description>Listado el curp y nombre de todos los alumnos</description>
+            </item>
+            </list>
+            </summary>
+        </member>
+        <member name="M:ExamenAPI.Controllers.AlumnosController.Nuevo(ExamenAPI.Models.Alumnos)">
+            <summary>
+            <para>
+            Es el encargado de agregar un nuevo alumno en la base de datos
+            </para>
+            </summary>
+            <remarks>
+            Se agrega al recibir todos los datos requeridos del alumno usando el modelo alumno
+            </remarks>
+            <param name="slumno">Modelo alumnos el cual contiene los datos del alumno</param>
+            <returns>Devuelve un valor de tipo boolean true en caso de exito y false si algo inesperado sucedió</returns>
+        </member>
+        <member name="M:ExamenAPI.Controllers.AlumnosController.Elimina(System.Int32)">
+            <summary>
+            <para>
+            Es el encargado de eliminar el alumno en la base de datos
+            dependiendo al parametro que necesitamos
+            </para>
+            </summary>
+            <remarks>
+            Esto lo hace por medio del Id del alumno.
+            </remarks>
+            <param name="id">El Id del alumno requerido</param>
+            <returns>Devuelve un valor de tipo boolean true en caso de exito y false si algo sucedio</returns>
+        </member>
+        <member name="M:ExamenAPI.Controllers.AlumnosController.GetCurso(System.Int32)">
+            <summary>
+            <para>
+            Es el encargado de buscar la materia indicada
+            dependiendo al parametro que necesitamos
+            </para>
+            </summary>
+            <remarks>
+            Esto lo hace por medio del Id del curso.
+            </remarks>
+            <param name="id">El Id del curso requerido</param>
+            <returns>Devuelve un valor de tipo Cursos con los datos de la materia y el maestro</returns>
+        </member>
+        <member name="F:ExamenAPI.Data.Conexion.conexion">
+            <summary>
+            Esta es la clase que contiene la cadena de conexion 
+            necesaria para realizar las consultas a la base de datos
+            <list type="bullet">
+            <item>
+            <term>conexion</term>
+            <description>Cadena de texto con los datos requeridos</description>
+            </item>
+            </list>
+            </summary>
+        </member>
     </members>
 </doc>
